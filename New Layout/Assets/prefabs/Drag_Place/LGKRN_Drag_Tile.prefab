@@ -89,3 +89,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsObject: {fileID: 2056443132116578228, guid: 026adad7a7d7af34093d8f3723e1d8f2, type: 3}
+  HatiDuplicate: {fileID: 1533062107476132614, guid: 4f2a18e6afc2af64d826d69558c26e8a, type: 3}
+  JGDuplicate: {fileID: 1976496861544554010, guid: 1cd92f04d01aa77449bd5cb54967147d, type: 3}
+  SGTGDuplicate: {fileID: 1403276499001734694, guid: cb55be230ad6f1646bcd09053fc0c79b, type: 3}
+  LGKRNDuplicate: {fileID: 2056443132116578228, guid: 026adad7a7d7af34093d8f3723e1d8f2, type: 3}
+  KTPTDuplicate: {fileID: 3311728828713940369, guid: e0696456c264f3948993e1adc2ba6b2f, type: 3}

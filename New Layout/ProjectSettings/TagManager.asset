@@ -5,6 +5,36 @@ TagManager:
   serializedVersion: 2
   tags:
   - Changeable_Tile
+  - LGRKN_Tile1
+  - LGKRN_Tile2
+  - KTPT_Tile1
+  - SGTG_Tile1
+  - SGTG_Tile2
+  - KTPT_Tile2
+  - JG_Tile1
+  - LGKRN_Tile3
+  - KTPT_Tile3
+  - Hati_Tile1
+  - KTPT_Tile4
+  - KTPT_Tile5
+  - LGKRN_Tile4
+  - KTPT_Tile6
+  - Hati_Tile2
+  - LGKRN_Tile5
+  - KTPT_Tile7
+  - Hati_Tile3
+  - Hati_Tile4
+  - LGKRN_Tile6
+  - SGTG_Tile3
+  - KTPT_Tile8
+  - Hati_Tile5
+  - SGTG_Tile4
+  - Hati_Tile6
+  - SGTG_Tile5
+  - Hati_Tile7
+  - Hati_Tile8
+  - Hati_Tile9
+  - LGKRN_Tile1
   layers:
   - Default
   - TransparentFX

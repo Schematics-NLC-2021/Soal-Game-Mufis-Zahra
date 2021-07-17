@@ -27,6 +27,7 @@ public class SceneLoader : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene("Game Core");
+        FindObjectOfType<Game_Status>().ResetGame();
     }
 
     public void QuitGame()
