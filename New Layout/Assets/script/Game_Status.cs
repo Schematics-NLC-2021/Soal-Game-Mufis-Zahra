@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Runtime.InteropServices;
 
 public class Game_Status : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Game_Status : MonoBehaviour
     public static int CheckTile = OnTile + 1;
     [SerializeField] TextMeshProUGUI scoreText;
     // int total_tile = 28;
+    [DllImport("__Internal")]
+    public static extern void sendscore(int score);
+
     public void countCorrect()
     {
         correct++;
@@ -24,13 +28,17 @@ public class Game_Status : MonoBehaviour
         }
         else
         {
-            OnTile++;
+            OnTile+=1;
         }
         CheckTile++;
     }
     public void total()
     {
         scoreText.text = "Your Correct Tiles are "+ correct + " of 28";
+    }
+    public void sendingscore()
+    { 
+        sendscore(correct);
     }
     public void ResetGame()
     {
