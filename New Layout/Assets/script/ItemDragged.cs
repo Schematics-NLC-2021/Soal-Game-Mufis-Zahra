@@ -10,7 +10,7 @@ public class ItemDragged : MonoBehaviour,IBeginDragHandler,IEndDragHandler, IDra
     public static GameObject itemBeingDragged;
 
     private RectTransform rectTransform;
-    private CanvasGroup canvasGroup;
+    public CanvasGroup canvasGroup;
     public static Vector3 resetPosition;
     Place_Drag place_Drag;
 
