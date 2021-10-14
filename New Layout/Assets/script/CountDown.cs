@@ -12,6 +12,9 @@ public class CountDown : MonoBehaviour
     // [SerializeField] float timeValue = 900f;
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] TextMeshProUGUI ScoreText;
+    [SerializeField] TextMeshProUGUI GuideText;
+    [SerializeField] TextMeshProUGUI GuideText2;
+    [SerializeField] TextMeshProUGUI GuideText3;
     private bool timerGoing;
     public bool isFinished = false;
     // public bool SudahKeisi = false;
@@ -67,6 +70,9 @@ public class CountDown : MonoBehaviour
         if(isFinished){
             ScoreText.gameObject.SetActive(true);
             timerText.gameObject.SetActive(false);
+            GuideText.gameObject.SetActive(false);
+            GuideText2.gameObject.SetActive(false);
+            GuideText3.gameObject.SetActive(false);
             gameStatus.HideButton();
             gameStatus.FinishGame();
         }

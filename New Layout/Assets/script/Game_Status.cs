@@ -48,6 +48,7 @@ public class Game_Status : MonoBehaviour
     public static int OnTile = 0;
     public static int CheckTile = OnTile + 1;
     [SerializeField] TextMeshProUGUI scoreText;
+    public int CalculateScore;
     // int total_tile = 28;
     [DllImport("__Internal")]
     public static extern void sendscore(int score);
@@ -74,7 +75,10 @@ public class Game_Status : MonoBehaviour
     }
     public void sendingscore()
     { 
-        sendscore(correct);
+        CalculateScore = (int)Mathf.Round((correct * 30)/28);
+        Debug.Log(CalculateScore);
+        Debug.Log(correct);
+        sendscore(CalculateScore);
     }
     public void FinishGame(){
         sendingscore();
